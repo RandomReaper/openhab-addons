@@ -224,6 +224,16 @@ The `tap_switch_event` can trigger one of the following events:
 | Button 3 | Button 3 | 17    |
 | Button 4 | Button 4 | 18    |
 
+Some "Friends of Hue" dual batteryless wall switch (for instance Feller or nodon) will send the following `tap_switch_event`:
+
+| Button     | Event pressed | Event released |
+|------------|---------------|----------------|
+| UP LEFT    | 16            | 20             |
+| UP RIGHT   | 19            | 23             |
+| UP BOTH    | 100           | 101            |
+| DOWN LEFT  | 17            | 21             |
+| DOWN RIGHT | 18            | 22             |
+| DOWN BOTH  | 98            | 99             |
 
 ## Rule Actions
 
